@@ -14,4 +14,11 @@ app.use("/api", require("./routes/authRoutes"));
 app.use("/api", require("./routes/productRoutes"));
 app.use("/api", require("./routes/cartRoutes"));
 
-app.listen(5000, () => console.log("Server running on port 5000"));
+app.post("/check", (req, res) => {
+  res.json({ message: "Working perfectly" });
+});
+const PORT = 7000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
