@@ -108,7 +108,9 @@ You can test APIs using:
 ->Thunder Client (VS Code)
 ->Postman
 ->MongoDB Compass (for database check)
-## Screenshots
+## Screenshots:
+<img width="1440" height="900" alt="1 post" src="https://github.com/user-attachments/assets/1d4ee131-5107-4f31-abca-c8cf42366532" />
+
 
 ##  Authentication Flow
 
