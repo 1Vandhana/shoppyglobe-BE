@@ -1,3 +1,4 @@
+// Main server file that connects to MongoDB , configures middleware and sets up all API routes through this server.js
 const express = require("express");
 const dotenv = require("dotenv");
 const cors = require("cors");

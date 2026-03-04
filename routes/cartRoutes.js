@@ -1,4 +1,5 @@
 const express = require("express");
+// Protected cart routes for adding , updating and deleting cart items using authentications middleware
 const auth = require("../middleware/authMiddleware");
 const { addToCart, updateCart, deleteCart } = require("../controllers/cartController");
 

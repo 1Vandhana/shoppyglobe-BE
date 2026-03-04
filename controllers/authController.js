@@ -1,7 +1,8 @@
+// Controllers for authcontroller for register login and password
 const User = require("../models/User");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-
+// Register with name email and password
 exports.register = async (req, res) => {
   try {
     const { name, email, password } = req.body;
@@ -25,6 +26,7 @@ exports.register = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+// Login with email and password with request uisng req body in tunderclient
 
 exports.login = async (req, res) => {
   try {

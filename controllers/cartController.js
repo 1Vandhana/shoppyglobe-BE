@@ -1,6 +1,7 @@
+// cartcontroller for productid and quantity using asysnc 
 const Cart = require("../models/Cart");
 const Product = require("../models/Product");
-
+// puting or updating card item using productid and quantity using .json
 exports.addToCart = async (req, res) => {
   try {
     const { productId, quantity } = req.body;
@@ -35,6 +36,7 @@ exports.updateCart = async (req, res) => {
     res.status(400).json({ message: "Invalid cart ID" });
   }
 };
+// Deleting the cart item from eith product it using dlete funtion from the cart
 
 exports.deleteCart = async (req, res) => {
   try {

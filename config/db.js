@@ -1,3 +1,4 @@
+// MongoDB Integration connected to database eith mongo_uri
 const mongoose = require("mongoose");
 
 const connectDB = async () => {

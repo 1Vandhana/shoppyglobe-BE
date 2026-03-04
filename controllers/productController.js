@@ -1,3 +1,4 @@
+// productController for find or getproducts from the cart
 const Product = require("../models/Product");
 
 exports.getProducts = async (req, res) => {
@@ -8,7 +9,7 @@ exports.getProducts = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
-
+// For singleproduct from cart using get operation
 exports.getSingleProduct = async (req, res) => {
   try {
     const product = await Product.findById(req.params.id);
