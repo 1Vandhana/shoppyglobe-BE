@@ -6,7 +6,7 @@ A RESTful backend API for an e-commerce application built using Node.js, Express
 This project supports user authentication, product management, and cart operations using JWT authentication.
 
 
-## 🚀 Features
+##  Features
 
 * User Registration & Login (JWT Authentication)
 * Secure Password Handling
@@ -59,40 +59,9 @@ shoppyglobe-be/
 ├── .env
 └── README.md
 
-##  Installation & Setup
 
-## Clone the Repository
-
-bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/shoppyglobe-be.git
-cd shoppyglobe-be
-
-##  Install Dependencies
-
-bash
-npm install
-
-
-## Create `.env` File
-
-Create a `.env` file in the root directory and add:
-
-
-PORT=8000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-
-###  Start the Server
-
-bash
-npm run dev
-
-
-or
-
-bash
-node server.js
-
+## GitHub LInk:
+https://github.com/1Vandhana/shoppyglobe-BE/blob/main/README.md
 
 Server will run on:
 
@@ -139,6 +108,7 @@ You can test APIs using:
 ->Thunder Client (VS Code)
 ->Postman
 ->MongoDB Compass (for database check)
+## Screenshots
 
 ##  Authentication Flow
 
