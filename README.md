@@ -2,7 +2,7 @@
 # #  ShoppyGlobe Backend API
 
 
-A RESTful backend API for an e-commerce application built using **Node.js, Express, and MongoDB**.
+A RESTful backend API for an e-commerce application built using Node.js, Express, and MongoDB.
 This project supports user authentication, product management, and cart operations using JWT authentication.
 
 
