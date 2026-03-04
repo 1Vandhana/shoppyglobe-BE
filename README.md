@@ -1,5 +1,5 @@
 
-# #  ShoppyGlobe Backend API
+##  ShoppyGlobe Backend API
 
 
 A RESTful backend API for an e-commerce application built using Node.js, Express, and MongoDB.
