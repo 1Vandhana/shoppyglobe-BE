@@ -1,6 +1,6 @@
 const express = require("express");
 // Routes to fetch all products and a single product by ID.
-const { getProducts, getSingleProduct } = require("../ontrollers/productController.js");
+const { getProducts, getSingleProduct } = require("../controllers/productController.js");
 const router = express.Router();
 
 router.get("/", getProducts);
